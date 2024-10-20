@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0">
+  <title>Sergio Garkusha :: Software Engineer :: Front-End, Full Stack Web</title>
+
+  <link rel="stylesheet" href="./assets/css/styles.css" type="text/css" media="all">
+  <link rel="stylesheet" href="./assets/css/gumby.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="./assets/css/media-queries.css" type="text/css" media="screen">
+
+  <link rel="icon" type="image/png" href="./assets/favicons/favicon-48x48.png" sizes="48x48" />
+  <link rel="icon" type="image/svg+xml" href="./assets/favicons/favicon.svg" />
+  <link rel="shortcut icon" href="./assets/favicons/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicons/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+  <link rel="manifest" href="./assets/favicons/site.webmanifest" />
+</head>
+
+<body>
+  <script>
+    (function () {
+      const preloaderMarkup = `
+        <div id="preloader-stage">
+          <div class="preloader-inner-wrapper">
+            <h1>Garkusha <br/><span>est 2011</span></h1>
+            <div class="multi">
+              <div/>
+            </div>
+          </div>
+        </div>`;
+      document.body.insertAdjacentHTML('afterbegin', preloaderMarkup);
+    })();
+  </script>
+
+  <div class="container">
+
+    <div class="sticky-logo-wrapper">
+      <p id="supportukraine">
+        <span class="hide-mobscreens">Support Ukraine </span>
+        🇺🇦&nbsp;
+        <a target="_blank" href="https://www.supportukraine.co/">
+          Help provide protective gear for Ukrainian fighters
+        </a>
+      </p>
+
+      <nav class="row logo-nav-descscreens">
+        <div id="logo" class="clearfix">
+          <h1 id="logo-large-screens" class="logo-text">
+            <a href="/" title="Cu7io.us">Garkusha</a>
+          </h1>
+        </div>
+      </nav>
+    </div>
+
+    <section id="header">
+      <div class="header-inner-wrapper">
+
+        <div id="hero-title">
+          <div class="height-block">
+            <div class="logo-phone centered">
+              <h1><a href="/" title="Cu7ious">Garkusha</a></h1>
+            </div>
+            <h1 id="hero-title-header">
+              Silicon Valley Professional
+              <br>
+              <span id="created-item-text">Software Engineer.</span>
+            </h1>
+            <a target="_blank" href="https://garkusha.substack.com?utm_source=garkusha.dev">Check out my <span
+                class="hide-mobscreens">blog</span>
+              posts »</a>
+          </div>
+        </div>
+
+        <div id="go-down" class="go-down go-down-event">
+          <span></span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Show standard footer -->
+    <section id="content">
+
+      <div class="row">
+        <div class="container auto-scrolling">
+          <div class="twelve columns">
+            <div id="my-pics" class="image photo slides">
+              <ul>
+                <li class="slide2"></li>
+              </ul>
+            </div>
+
+            <div class="about-me-lines">
+              <!-- 
+                
+                I’m a geek <br> who’s building the Web
+
+                I love JavaScript & Python
+
+                I’ve been using React since 2014
+
+                And Node.js since 2012
+
+                MongoDB certified since 2012
+
+                I’m all about automation
+
+                A true command line ninja
+
+                I thrive on Linux and macOS
+
+                And I’m loyal to Vim
+
+                I have an eye for design
+
+                Oh, and I run marathons too!
+               -->
+              <div class="skills-line">
+                <figure style="bottom: 42px;">
+                  <img src="./assets/svg/Geek.svg" alt="Geek">
+                  <figcaption>
+                    I’m a geek <br /> who’s building the Web
+                  </figcaption>
+                </figure>
+                <figure style="bottom: -60px;">
+                  <img src="./assets/svg/JS-and-Py.svg" alt="JavaScript">
+                  <figcaption>
+                    I love<br />JavaScript &amp; Python
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="skills-line">
+                <figure style="bottom: 42px;">
+                  <img src="./assets/svg/n_n_n.svg" alt="Node.js and NPM">
+                  <figcaption>
+                    I’ve been using <br /> Node.js since 2012
+                  </figcaption>
+                </figure>
+                <figure style="bottom: -105px;">
+                  <img src="./assets/svg/r_n_r.svg" alt="React.js &amp; React-Native">
+                  <figcaption>
+                    And React <br /> since 2014
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="skills-line">
+                <figure style="bottom: 25px;">
+                  <img src="./assets/svg/DBS.svg" alt="Redis and MongoDB">
+                  <figcaption>
+                    MongoDB certified<br /> since 2012
+                    <!-- with Redis as my go-to for caching -->
+                  </figcaption>
+                </figure>
+                <figure style="bottom: -110px;">
+                  <img src="./assets/svg/jenkins.svg" alt="Jenkins">
+                  <figcaption>
+                    I’m all about automation
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="skills-line">
+                <figure style="bottom: 5px;">
+                  <img src="./assets/svg/terminal.svg" alt="Command Line">
+                  <figcaption>
+                    A true command line <br /> ninja
+                  </figcaption>
+                </figure>
+                <figure style="bottom: -130px;">
+                  <img src="./assets/svg/OSs.svg" alt="Linux and Mac OS">
+                  <figcaption>
+                    I thrive on<br /> macOS and Linux
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="skills-line">
+                <figure style="bottom: -35px;">
+                  <img src="./assets/svg/Vim.svg" alt="Vim">
+                  <figcaption>
+                    And I’m loyal to Vim
+                  </figcaption>
+                </figure>
+                <figure style="bottom: -145px;">
+                  <!-- <img src="./assets/svg/sketch.svg" alt="Sketch"> -->
+                  <img src="./assets/svg/figma.svg" alt="Figma">
+                  <figcaption>
+                    I have an eye for design
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="skills-starter-line">
+                <figure>
+                  <img width="120" src="./assets/images/Marathons.png" alt="Marathons">
+                  <figcaption>
+                    Oh, and I run marathons too!
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="line-divider"></div>
+
+      <!-- Empty HTML for works showcase -->
+      <div id="works-container" class="shadow">
+        <div id="content-left" class="content-left row">
+          <!-- don't forget to add `single-element` class for a single content -->
+          <div id="img" class="ten columns centered"></div>
+        </div>
+
+        <div id="content-right" class="content-right">
+          <!-- close btn -->
+          <div id="closex"></div>
+          <!-- description block -->
+          <div id="cont"></div>
+          <!-- Content on Mobile View - same as content left ( don't forget the mobile-view class ) -->
+          <div class="ten columns centered mobile-view">
+            <!-- <img src="./assets/images/" alt=""> -->
+          </div>
+        </div>
+      </div>
+      <!-- Empty HTML for works showcase END -->
+
+      <div class="row">
+        <div class="container">
+          <div id="portfolio" class="row">
+            <h2>Significant Projects</h2>
+            <div class="portfolio-row row work-item">
+              <div class="six columns portfolio-photo">
+                <article class="portfolio-card">
+                  <a class="work-read-more" href="#">
+                    <img src="./assets/images/Promin.jpg" alt="Promin (Промінь)">
+                  </a>
+                </article>
+              </div>
+              <div class="six columns portfolio-caption">
+                <article class="portfolio-card work-item-text">
+                  <h2>Promin App</h2>
+                  <h3>Software Development Lead</h3>
+                  <ul>
+                    <h6>Key Contributions:</h6>
+                    <li>Back End Architecture</li>
+                    <li>Mobile Apps Architecture</li>
+                    <li>Cross-platform Mobile &amp; Web Development</li>
+                    <li>Led the Team of 4 Engineers</li>
+                    <a class="work-read-more" href="#">Read More »</a>
+                  </ul>
+                </article>
+              </div>
+            </div>
+            <div class="portfolio-row row work-item">
+              <div class="six columns portfolio-caption">
+                <article class="portfolio-card work-item-text">
+                  <h2>Workday Extend</h2>
+                  <h3>Software Development Engineer III (P3)</h3>
+                  <ul>
+                    <h6>Key Contributions:</h6>
+                    <li>Front End &amp; Cloud Development</li>
+                    <li>Workday API Explorer</li>
+                    <li>Workday APIs Documentation</li>
+                    <li>Individual Contributor, Horizontally-Structured Team</li>
+                    <a class="work-read-more" href="#">Read More »</a>
+                  </ul>
+                </article>
+              </div>
+              <div class="six columns portfolio-photo">
+                <article class="portfolio-card">
+                  <a class="work-read-more" href="#">
+                    <img src="./assets/images/Workday.jpg" alt="Workday">
+                  </a>
+                </article>
+              </div>
+            </div>
+            <div class="portfolio-row row work-item">
+              <div class="six columns portfolio-photo">
+                <article class="portfolio-card">
+                  <a class="work-read-more" href="#">
+                    <img src="./assets/images/SentiSum.jpg" alt="SentiSum">
+                  </a>
+                </article>
+              </div>
+              <div class="six columns portfolio-caption">
+                <article class="portfolio-card work-item-text">
+                  <h2>SentiSum Dashboard</h2>
+                  <h3>Full Stack Lead.</h3>
+                  <ul>
+                    <h6>Key Contributions:</h6>
+                    <li>Back End Architecture</li>
+                    <li>Front End Architecture</li>
+                    <li>Project Conceptualization</li>
+                    <li>Led the Team of 4 Engineers</li>
+                    <a class="work-read-more" href="#">Read More »</a>
+                  </ul>
+                </article>
+              </div>
+            </div>
+            <div class="portfolio-row row work-item">
+              <div class="six columns portfolio-caption">
+                <article class="portfolio-card work-item-text">
+                  <h2>MotoPress Content Editor</h2>
+                  <h3>Full Stack Fellow.</h3>
+                  <ul>
+                    <h6>Key Contributions:</h6>
+                    <li>Product Architecture</li>
+                    <li>Conceptualization of Products</li>
+                    <li>Continuous Delivery Scenarios</li>
+                    <a class="work-read-more" href="#">Read More »</a>
+                  </ul>
+                </article>
+              </div>
+              <div class="six columns portfolio-photo">
+                <article class="portfolio-card">
+                  <a class="work-read-more" href="#">
+                    <img src="./assets/images/MotoPress.jpg" alt="MotoPress">
+                  </a>
+                </article>
+              </div>
+            </div>
+            <div class="portfolio-row row work-item">
+              <div class="six columns portfolio-photo">
+                <article class="portfolio-card">
+                  <a class="work-read-more" href="#">
+                    <img src="./assets/images/Zentist-Presentation.png" alt="Zentist">
+                  </a>
+                </article>
+              </div>
+              <div class="six columns portfolio-caption">
+                <article class="portfolio-card work-item-text">
+                  <h2>Zentist</h2>
+                  <h3>Senior Front End.</h3>
+                  <ul>
+                    <h6>Key Contributions:</h6>
+                    <li>Led the Remote Team of 10 People</li>
+                    <li>Fix Front End Build Process</li>
+                    <li>Migrate Product to React.js</li>
+                    <a class="work-read-more" href="#">Read More »</a>
+                  </ul>
+                </article>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="container auto-scrolling">
+          <div class="twelve columns">
+            <div class="get-in-touch">
+              <h4>Get in touch with me</h4>
+              <a target="_blank" href="https://linkedin.com/in/sergio-garkusha">LinkedIn</a>
+              <a href="mailto:&#99;&#111;&#110;&#110;&#101;&#99;&#116;&#64;&#103;&#97;&#114;&#107;&#117;&#115;&#104;&#97;&#46;&#100;&#101;&#118;"
+                target="_blank">&#99;&#111;&#110;&#110;&#101;&#99;&#116;&#64;&#103;&#97;&#114;&#107;&#117;&#115;&#104;&#97;&#46;&#100;&#101;&#118;</a>
+              <a target="_blank" href="https://x.com/SergioGarkusha">X.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+
+  </div>
+
+  </section>
+
+  <footer id="footer-sticky">
+    <div id="logo-footer">
+      <a href="#" id="go-up" class="go-up-event"></a>
+    </div>
+    <nav>
+      <ul class="footer-navigation">
+        <li id="menu-about" class="menu-item go-down-event"><a href="#">About</a></li>
+        <li id="menu-home" class="menu-item go-up-event"><a href="#">Home</a></li>
+        <li class="menu-item"><a target="_blank" href="https://garkusha.substack.com?utm_source=garkusha.dev">Blog</a>
+        </li>
+        <li id="menu-works" class="menu-item"><a target="_blank" href="#">Work</a></li>
+        <li class="menu-item"><a target="_blank" href="/resume.html">Resume</a></li>
+        <li class="menu-item"><a target="_blank" href="https://linkedin.com/in/sergio-garkusha">LinkedIn</a></li>
+        <li class="menu-item"><a target="_blank" href="https://github.com/sergio-garkusha">GitHub</a></li>
+        <!-- <li class="menu-item"><a target="_blank" href="https://codepen.io/Cu7ious/">CodePen</a></li> -->
+      </ul>
+      <p>
+        <span>&copy; 2024 <a href="https://garkusha.dev/?utm_source=garkusha.dev+copy">Sergio
+            Garkusha</a></span>
+        <!-- <span>Hosted by <a href="https://m.do.co/c/8b69920853a6" target="_blank">DigitalOcean</a></span> -->
+      </p>
+    </nav>
+  </footer>
+
+  <!-- Load scripts -->
+  <script type="text/javascript" src="./assets/js/preloader.js"></script>
+  <script type="text/javascript" src="./assets/js/main.js"></script>
+
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      },
+
+        i[r].l = 1 * new Date();
+
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-77963828-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+
+</html>

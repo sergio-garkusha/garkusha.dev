@@ -1,0 +1,16 @@
+.DS_Store
+
+*.bac
+
+# Node.js dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+
+# Environment variables
+.env
