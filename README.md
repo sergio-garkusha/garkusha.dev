@@ -1,5 +1,7 @@
 # Garkusha.dev
 
+<img src="https://github.com/sergio-garkusha/garkusha.dev/blob/main/assets/images/Github-showcase.png?raw=true">
+
 ### Tech
 
 ```
