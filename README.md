@@ -4,9 +4,9 @@
 
 ### To Do
 
-[ ] Migrate to parcel for development, build and distribution
-[ ] Double check mobile views
-[ ] Add more projects
+- [ ] Migrate to parcel for development, build and distribution
+- [ ] Double check mobile views
+- [ ] Add more projects
 
 ### Tech
 
