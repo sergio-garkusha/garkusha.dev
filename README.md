@@ -15,8 +15,7 @@
 2. Vanilla CSS
 3. HTML
 4. Rollup + PostCSS for distribution
-5. Github Actions for CI
-. Bash
+5. Bash for development & continuous integration
 ```
 
 ### To develop locally
