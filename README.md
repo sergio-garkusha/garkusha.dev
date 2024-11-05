@@ -2,6 +2,12 @@
 
 <img src="https://github.com/sergio-garkusha/garkusha.dev/blob/main/assets/images/Github-showcase.png?raw=true">
 
+### To Do
+
+[ ] Migrate to parcel for development, build and distribution
+[ ] Double check mobile views
+[ ] Add more projects
+
 ### Tech
 
 ```
